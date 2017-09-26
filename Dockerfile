@@ -4,4 +4,4 @@ ADD . /app/user/
 WORKDIR /app/user
 RUN npm install
 
-CMD node app.js
+CMD node server.js
